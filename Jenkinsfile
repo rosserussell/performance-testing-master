@@ -23,8 +23,8 @@ pipeline
       steps {
         echo "Getting Exploratory Testing Repo"
         git(
-        url:'https://github.com/rosserussell/performance-testing-master.git',
-        credentialsId: 'GitHub',
+        url:'git@github.com:rosserussell/performance-testing-master.git',
+        credentialsId: 'Performance_Test',
         branch: "master"
         )
      }
